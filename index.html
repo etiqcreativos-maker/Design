@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>etiq studio — Estudio de diseño</title>
+  <meta name="description" content="Estudio de diseño enfocado en lo que las marcas usan todos los días: branding, diseño web, piezas para redes, papelería creativa y más.">
+  <meta name="theme-color" content="#FFF5E5">
+  <link rel="canonical" href="https://etiqdesign.co/">
+  <link rel="icon" type="image/svg+xml" href="assets/isotipo.svg">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="etiq studio">
+  <meta property="og:title" content="etiq studio — Estudio de diseño">
+  <meta property="og:description" content="Branding, diseño web, piezas para redes y papelería creativa. Cuidamos cada detalle que construye marca.">
+  <meta property="og:url" content="https://etiqdesign.co/">
+  <meta property="og:image" content="https://etiqdesign.co/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Asterisco de marca, reutilizable -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="ast" viewBox="-145 -176 190 180">
+      <path transform="scale(1,-1)" fill="currentColor" d="M0 0C-9.313-4.244-18.439-8.089-28.09-11.784L-49.488 39.654-70.864-11.763C-80.613-8.098-88.797-4.648-98.911-.144L-77.802 51.166-129.239 30.146-140.812 58.132-89.451 79.474-140.786 101.017-129.413 128.923-77.862 107.804-98.874 159.288-70.968 171.009-49.535 119.978-27.866 171.007-.151 159.01-21.224 107.653 30.239 128.997 42.054 101.175-9.016 79.545 42.019 58.087 30.251 30.077-20.979 51.026Z"/>
+    </symbol>
+  </svg>
+
+  <a class="skip" href="#contenido">Saltar al contenido</a>
+
+  <header class="nav" id="top">
+    <a class="nav__logo" href="#top" aria-label="etiq studio — inicio">
+      <img src="assets/logo.svg" alt="etiq studio" height="28">
+    </a>
+    <button class="nav__toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+      <span></span><span></span>
+    </button>
+    <nav class="nav__menu" id="menu" aria-label="Principal">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#portafolio">Portafolio</a>
+      <a href="#contacto" class="btn btn--sm">Contáctanos</a>
+    </nav>
+  </header>
+
+  <main id="contenido">
+
+    <!-- HERO -->
+    <section class="hero">
+      <p class="eyebrow">Estudio de diseño · 2026</p>
+      <h1>Somos un estudio de diseño que se centra en <em>lo esencial.</em></h1>
+      <p class="hero__sub">Diseñamos para redes, sitios web y papelería creativa, cuidando <strong><em>cada detalle que construye marca.</em></strong></p>
+      <div class="hero__cta">
+        <a href="#portafolio" class="btn">Ver portafolio</a>
+        <a href="#contacto" class="btn btn--ghost">Trabajemos juntos</a>
+      </div>
+      <svg class="hero__ast" aria-hidden="true"><use href="#ast"/></svg>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="about" id="nosotros">
+      <div class="about__photo reveal">
+        <img src="assets/juanjo-lau.webp" alt="Juanjo y Lau, fundadores de etiq studio" loading="lazy">
+      </div>
+      <div class="about__text reveal">
+        <p class="eyebrow">Quiénes somos</p>
+        <h2>Dos caminos distintos que se <em>cruzaron en el diseño.</em></h2>
+        <p>Juanjo viene de la ingeniería de diseño de producto y Lau del diseño industrial. Y en lo visual encontramos una forma de <strong><em>construir marcas.</em></strong></p>
+        <p>Trabajamos de la mano con las marcas para <strong><em>entender lo que necesitan</em></strong> y cómo quieren verse.</p>
+        <p class="about__nace">Así nace <strong>etiq</strong>: dos formas de ver el diseño trabajando en una misma dirección.</p>
+      </div>
+    </section>
+
+    <section class="team">
+      <article class="person reveal">
+        <img src="assets/juanjo.webp" alt="Juanjo" loading="lazy">
+        <div>
+          <h3><svg aria-hidden="true"><use href="#ast"/></svg>Juanjo</h3>
+          <p>Detalle, estructura y concepto, donde la creatividad sale a flote.</p>
+        </div>
+      </article>
+      <article class="person reveal">
+        <img src="assets/lau.webp" alt="Lau" loading="lazy">
+        <div>
+          <h3>Lau<svg aria-hidden="true"><use href="#ast"/></svg></h3>
+          <p>Conexión, idea y dirección: traduce lo que la marca quiere decir.</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="services" id="servicios">
+      <div class="services__head reveal">
+        <p class="eyebrow eyebrow--light">Nuestros servicios</p>
+        <h2>Diseñamos todo lo que <em>tu marca necesita</em> para verse bien y comunicar mejor.</h2>
+      </div>
+      <ul class="services__list">
+        <li class="reveal"><span>01</span>Diseño web</li>
+        <li class="reveal"><span>02</span>Branding</li>
+        <li class="reveal"><span>03</span>Fotografía de producto</li>
+        <li class="reveal"><span>04</span>Diseño de piezas</li>
+        <li class="reveal"><span>05</span>Papelería creativa</li>
+        <li class="reveal"><span>06</span>Marketing &amp; comunicaciones</li>
+        <li class="reveal"><span>07</span>Asesoría en creación de marca</li>
+        <li class="reveal"><span>08</span>Invitaciones digitales</li>
+      </ul>
+    </section>
+
+    <!-- VALORES -->
+    <section class="values">
+      <p class="values__line reveal">Trabajamos desde <em>la claridad, la estética</em> y el detalle.</p>
+      <p class="values__line reveal">Creemos en marcas <em>coherentes</em> y bien pensadas.</p>
+    </section>
+
+    <!-- PORTAFOLIO -->
+    <section class="work" id="portafolio">
+      <div class="work__head reveal">
+        <p class="eyebrow">Portafolio</p>
+        <h2>Proyectos <em>recientes</em></h2>
+      </div>
+
+      <!-- Voreios -->
+      <article class="project reveal">
+        <div class="project__info">
+          <p class="tag">Diseño web · SEO</p>
+          <h3>Voreios Energía</h3>
+          <p>Rediseñamos la web de Voreios. Simplificamos la estructura, ordenamos la información y construimos una experiencia más clara y funcional.</p>
+          <div class="ba-lists">
+            <div>
+              <h4>Antes</h4>
+              <ul>
+                <li>Falta de jerarquía visual</li>
+                <li>Exceso de información</li>
+                <li>Navegación poco clara</li>
+                <li>Interfaz saturada</li>
+                <li>Peso tipográfico desbalanceado</li>
+                <li>Sin SEO bien estructurado</li>
+              </ul>
+            </div>
+            <div>
+              <h4>Después</h4>
+              <ul>
+                <li>Jerarquía visual clara</li>
+                <li>Navegación más intuitiva</li>
+                <li>Contenido organizado</li>
+                <li>Uso estratégico del espacio</li>
+                <li>Interfaz limpia y coherente</li>
+                <li>SEO</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="compare" data-compare>
+          <img class="compare__after" src="assets/voreios-despues.jpg" alt="Sitio web de Voreios después del rediseño" loading="lazy">
+          <div class="compare__before">
+            <img src="assets/voreios-antes.jpg" alt="Sitio web de Voreios antes del rediseño" loading="lazy">
+          </div>
+          <span class="compare__label compare__label--b">Antes</span>
+          <span class="compare__label compare__label--a">Después</span>
+          <div class="compare__handle" aria-hidden="true"><svg><use href="#ast"/></svg></div>
+          <input class="compare__range" type="range" min="0" max="100" value="50" aria-label="Comparar antes y después">
+        </div>
+      </article>
+
+      <!-- Espíritu de Montaña -->
+      <article class="project project--rev reveal">
+        <div class="project__info">
+          <p class="tag">Diseño de piezas</p>
+          <h3>Espíritu de Montaña</h3>
+          <p>Diseñamos una serie de 6 piezas para comunicar experiencias que se viven sobre ruedas. Cada flyer fue pensado para transmitir <strong><em>movimiento, energía y conexión</em></strong> con el entorno de cada destino.</p>
+        </div>
+        <figure class="project__img">
+          <img src="assets/espiritu-montana.jpg" alt="Ciclista de montaña en un sendero, imagen de la serie de flyers Espíritu de Montaña" loading="lazy">
+        </figure>
+      </article>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contact" id="contacto">
+      <svg class="contact__ast" aria-hidden="true"><use href="#ast"/></svg>
+      <div class="contact__inner reveal">
+        <h2>Trabajemos <em>juntos.</em></h2>
+        <p>Cuéntanos sobre tu marca y qué necesitas. Te respondemos pronto.</p>
+
+        <form class="form" id="form" novalidate>
+          <label>Nombre
+            <input type="text" name="nombre" autocomplete="name" required>
+          </label>
+          <label>Correo
+            <input type="email" name="correo" autocomplete="email" required>
+          </label>
+          <label>¿En qué podemos ayudarte?
+            <textarea name="mensaje" rows="4" required></textarea>
+          </label>
+          <button type="submit" class="btn btn--dark">Enviar mensaje</button>
+          <p class="form__note" role="status" aria-live="polite"></p>
+        </form>
+
+        <ul class="contact__links">
+          <li><a data-link="email" href="#contacto">Correo</a></li>
+          <li><a data-link="whatsapp" href="#contacto" target="_blank" rel="noopener">WhatsApp</a></li>
+          <li><a data-link="instagram" href="#contacto" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <img src="assets/logo-claro.svg" alt="etiq studio" height="26">
+    <p>© <span id="year">2026</span> etiq studio · Juanjo &amp; Lau</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
